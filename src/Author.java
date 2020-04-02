@@ -3,7 +3,7 @@
  */
 import java.util.ArrayList;
 import java.util.List;
-@SuppressWarnings("all")
+@SuppressWarnings("unchecked")
 public class Author extends Person {
     private List books;
 
@@ -13,7 +13,7 @@ public class Author extends Person {
     }
 
     /**
-     * @deprecated Use publishedBooks instead
+     * @deprecated Use publishedBooks instead {@link #publishedBooks()}}
      */
     @Deprecated
     public List<String> getBooks() {
